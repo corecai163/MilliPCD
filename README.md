@@ -34,3 +34,10 @@ python3  train_MMNet_V1.py
 
 python3 test_MMNet_V1.py
 ####
+
+#### Test the network on New Environment:
+#Use the checkpoint file and modify the checkpoint path in the test_MMNet_v1_horizon.py
+#Use testing data: [UofSC_Horizon](https://www.dropbox.com/scl/fo/tgiq9uscqdhgjzgtqtcvt/h?rlkey=0htb14yyg0qnk9gpwy8tscoui&dl=0)
+
+python3 test_MMNet_V1_horizon.py
+####
