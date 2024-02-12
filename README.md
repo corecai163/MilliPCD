@@ -22,15 +22,15 @@ using env_lib.txt
 
 #### Train the network:
 
-# First Modify the data path in the train_MMNet_V1.py
-# Use training data: UofSC_Train_V4
+#First Modify the data path in the train_MMNet_V1.py
+#Use training data: [UofSC_Train_V4](https://www.dropbox.com/scl/fo/06t1fw89s07kk116y955a/h?rlkey=s02t05nlzupoy3548xjhldn6p&dl=0)
 
 python3  train_MMNet_V1.py
 ####
 
 #### Test the network:
-# Use the checkpoint file and modify the checkpoint path in the test_MMNet_v1.py
-# Use testing data: UofSC_Test_V4
+#Use the checkpoint file and modify the checkpoint path in the test_MMNet_v1.py
+#Use testing data: [UofSC_Test_V4](https://www.dropbox.com/scl/fo/l8avb3xj7popiu9x3qdhd/h?rlkey=bolpd1vhaoejor9ie9q6lnram&dl=0)
 
 python3 test_MMNet_V1.py
 ####
